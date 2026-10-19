@@ -13,6 +13,7 @@ target = args.target.resolve()
 assert (target / "sites.json").is_file(), "Expected the existing navigation checkout"
 out = target / "site/creation"
 out.mkdir(parents=True,exist_ok=True)
-for name in ("index.html","style.css","favicon.svg","build-manifest.json"):
+for name in ("index.html","ai-music/index.html","style.css","favicon.svg","build-manifest.json"):
+    (out / name).parent.mkdir(parents=True,exist_ok=True)
     shutil.copyfile(ROOT / "dist" / name, out / name)
 print("Exported the explicit public bundle into site/creation")
