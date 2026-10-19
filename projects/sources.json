@@ -14,6 +14,7 @@
     {"title": "ACE-Step 上游源码", "url": "https://github.com/ace-step/ACE-Step-1.5", "note": "开源生成与编辑备选；上游宣传不等于本机已验证能力。"},
     {"title": "ACE-Step 社区 Cover 讨论", "url": "https://github.com/ace-step/ACE-Step-1.5/discussions/398", "note": "参数与经验线索，也包含失败反馈。"},
     {"title": "B 站改词不改曲教程", "url": "https://www.bilibili.com/video/BV1Qcxtz2EeT/", "note": "历史调研线索；教程引向 suno.cn，与官方 suno.com 是不同网址，未照教程复现。"},
+    {"title": "Suno 社区：新界面 Cover 与歌词字段问题", "url": "https://www.reddit.com/r/SunoAI/comments/1wjp1y2/for_those_that_currently_have_issues_covering/", "note": "用户报告 Simple 描述可能覆盖 Advanced 歌词；有人通过清空输入后重新选 Cover 解决。属于社区经验，未在本实验验证成功。"},
     {"title": "Ultimate Vocal Remover", "url": "https://github.com/Anjok07/ultimatevocalremovergui", "note": "分离工具候选；分离人声不等于用新词重新演唱。"}
   ]
 }
