@@ -30,6 +30,8 @@ fields = {
     "ROUTES": "".join(f'<article class="route"><span class="label">{esc(r["name"])}</span><p class="flow">{esc(r["steps"])}</p><p>{esc(r["advantage"])}</p><p class="muted">{esc(r["limit"])}</p></article>' for r in p["routes"]),
     "ACCEPTANCE": "".join(f'<div class="criterion"><b>{esc(r["name"])}</b><p>{esc(r["test"])}</p></div>' for r in p["acceptance"]),
     "NEXT": "".join(f'<li>{esc(r)}</li>' for r in p["next"]),
+    "CANDIDATE_SUMMARY": esc(p["candidate_summary"]),
+    "TRIAL_PLAN": "".join(f'<li>{esc(r)}</li>' for r in p["trial_plan"]),
     "IDEAS": "".join(f'<article class="idea"><h3>{esc(r["title"])}</h3><p>{esc(r["hook"])}</p><p class="muted">{esc(r["evidence"])}</p></article>' for r in p["ideas"]),
     "SAMPLES": "".join(f'<div class="sample"><span class="views">{esc(r["views"])}</span>{link(r)}<p>{esc(r["note"])}</p></div>' for r in s["samples"]),
     "SOURCES": "".join(f'<div class="source">{link(r)}<p>{esc(r["note"])}</p></div>' for r in s["tools"]),
