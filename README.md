@@ -7,7 +7,7 @@
 ## 栏目与当前状态
 
 - [栏目与 ideas](https://farmcan.pages.dev/creation/)：AI 音乐、职场小剧场、AI 工具日常；候选栏目和待策划想法明确标记。
-- [AI 音乐详情](https://farmcan.pages.dev/creation/ai-music/)：参考、制作方案、实验进展与验收。8 秒原曲片段已实际入库并可加载到 Cover，但多种 Cover 与无参考基础生成仍未得到音轨；一次控制台出现 challenge-error，不能解释所有失败。Kie 在线备选停在登录验证，赠点与生成尚未验证；Mureka 仅完成官方能力研究。28 秒版本的拒绝保留为历史记录。本地开源路线已停止，没有本地生成音轨。
+- [AI 音乐详情](https://farmcan.pages.dev/creation/ai-music/)：用户已从 8 秒源创建两条 V6-MINI Cover，时长 2:00 与 1:41；第一条显示的歌词/Styles 元数据未对齐英语 country rock 目标，实际音频尚未下载、听辨或转写。下一步先修正继承的中文歌词、Mandopop 风格和短参考约束，再做短乐句验证。Kie 限流保留为历史，本地开源路线仍停止。
 - `projects/catalog.json` 维护栏目与 idea；`projects/ai-music.json` 维护音乐实验状态。技术细节不再占满总入口。
 
 ## 维护与发布

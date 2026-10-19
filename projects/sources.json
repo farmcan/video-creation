@@ -5,7 +5,7 @@
       "title": "英语填词《朋友的酒》",
       "url": "https://www.bilibili.com/video/BV1Este6wExx/",
       "views": "1105.5 万",
-      "note": "本次核心标杆；简介标注 AI 生成，具体音乐工具未知。"
+      "note": "本次核心标杆；简介仅标注 AI 生成。已查简介、16 条缓存评论与定向检索，未找到该条的工具、模型或参数披露；未覆盖全部评论。Cover 类流程只是功能匹配推断，不是作者确认使用 Suno。"
     },
     {
       "title": "《美猴亡》",
@@ -87,6 +87,21 @@
       "title": "Mureka 官方功能知识库",
       "url": "https://www.mureka.ai/knowledge_en.html",
       "note": "Reference 只参考风格；Remix 保留核心旋律，并提供替换歌词流程。相关权限与音轨结果尚未实测。"
+    },
+    {
+      "title": "Suno v6 官方 FAQ",
+      "url": "https://help.suno.com/en/articles/13924481",
+      "note": "区分 v6-mini、v6 与 v6-wild；标准生成一次两首共 10 积分，Max 会增加消耗，具体以当前界面为准。"
+    },
+    {
+      "title": "Suno 免费积分官方说明",
+      "url": "https://help.suno.com/en/articles/2410049",
+      "note": "免费方案每日补充 50 积分；产品规则不等于本次账户实扣或作者用量。"
+    },
+    {
+      "title": "Suno 下载额度官方说明",
+      "url": "https://help.suno.com/en/articles/13876865",
+      "note": "下载有独立额度，不与生成积分混算；实际可用项以当前方案和界面为准。"
     }
   ]
 }
