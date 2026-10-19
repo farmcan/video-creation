@@ -87,7 +87,7 @@
 
 ## 在线备选与一次性验证（2026-10-19）
 
-[Kie 的 Upload And Cover Audio 页面](https://kie.ai/suno-api?model=ai-music-api%2Fupload-and-cover-audio)及其[当前中文接口说明](https://docs.kie.ai/cn/suno-api/upload-and-cover-audio)列出 V6、源音频与新歌词字段。它是第三方服务，文档能力不等于本次已生成；登录目前遇到空白验证码组件，实际免费余额与页面赠点宣传尚未核实。
+[Kie 的 Upload And Cover Audio 页面](https://kie.ai/suno-api?model=ai-music-api%2Fupload-and-cover-audio)及其[当前中文接口说明](https://docs.kie.ai/cn/suno-api/upload-and-cover-audio)列出 V6、源音频与新歌词字段。它是第三方服务，文档能力不等于本次已生成；验证组件已加载，但当前因请求过多而限流；两次退避重试仍失败，已停止重复请求，保留输入和现场，等待服务恢复。此次操作已获得授权，当前无需再次授权；登录未完成，免费额度未核实，尚未上传音频或提交生成，没有生成结果。
 
 只做最多两次免费 Cover：登录与免费额度先通过，再把同一小段已获授权的源音频和目标新词放入对应字段，首条用当前默认值。拿到可播放输出后才做逐句验收；第二条仅在有明确问题时改一项。遇到验证码、无免费额度或任务失败时记录状态，不反复提交，不自动充值或订阅。
 
