@@ -1,0 +1,19 @@
+{
+  "snapshot_date": "2026-10-18",
+  "samples": [
+    {"title": "英语填词《朋友的酒》", "url": "https://www.bilibili.com/video/BV1Este6wExx/", "views": "1105.5 万", "note": "本次核心标杆；简介标注 AI 生成，具体音乐工具未知。"},
+    {"title": "《美猴亡》", "url": "https://www.bilibili.com/video/BV1tVsHznELh/", "views": "1832.3 万", "note": "高播放样本，不能据播放量推定生产工艺。"},
+    {"title": "《斩杀那个美利坚人》", "url": "https://www.bilibili.com/video/BV1JuBuBQE4P/", "views": "681.8 万", "note": "简介披露人工写词、GPT 辅助韵脚与 Suno 编曲演唱。"},
+    {"title": "日语版《朋友的酒》", "url": "https://www.bilibili.com/video/BV1Nibn63EPm/", "views": "435.6 万", "note": "简介提及 Suno，没有完整可复现参数。"},
+    {"title": "英语填词《真英雄》", "url": "https://www.bilibili.com/video/BV1xyas6wEge/", "views": "39.0 万", "note": "与原始需求接近的补充样本，工具未知。"}
+  ],
+  "tools": [
+    {"title": "Suno Cover 官方说明", "url": "https://suno.com/products/covers", "note": "目标是保留旋律与已有词；不承诺固定新词、逐音一致。"},
+    {"title": "Suno 2024 年历史改词说明", "url": "https://suno.com/blog/covers", "note": "提及可尝试修改歌词；不沿用当年的按钮、套餐或赠送次数。"},
+    {"title": "Synthesizer V 官方功能", "url": "https://www.dreamtonics.com/synthesizerv/", "note": "支持音符、歌词、歌声转 MIDI 与 MIDI 导入。"},
+    {"title": "ACE-Step 上游源码", "url": "https://github.com/ace-step/ACE-Step-1.5", "note": "开源生成与编辑备选；上游宣传不等于本机已验证能力。"},
+    {"title": "ACE-Step 社区 Cover 讨论", "url": "https://github.com/ace-step/ACE-Step-1.5/discussions/398", "note": "参数与经验线索，也包含失败反馈。"},
+    {"title": "B 站改词不改曲教程", "url": "https://www.bilibili.com/video/BV1Qcxtz2EeT/", "note": "历史调研线索；教程引向 suno.cn，与官方 suno.com 是不同网址，未照教程复现。"},
+    {"title": "Ultimate Vocal Remover", "url": "https://github.com/Anjok07/ultimatevocalremovergui", "note": "分离工具候选；分离人声不等于用新词重新演唱。"}
+  ]
+}
