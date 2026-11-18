@@ -1,9 +1,9 @@
 # 剪映导入交接
 
-2026-11-18。原请求是把本地 A 音轨与歌词导入剪映。当前优先完成方法和素材交接；本次未导入剪映草稿，不能称剪辑工程已完成。
+2026-11-18。原请求是把本地 A 音轨与歌词导入剪映。下文保留早期交接边界；后续已经在本机完成歌词工程准备，最新状态见 [视频计划与实测接续](../projects/jensen-song-2026-11-17/VIDEO-PLAN.md)：完整 MP3、44 条可编辑中英字幕和真实参考照片已上轨，并保存重开验证。当前是参考排版底版，尚未完成真实素材剪辑、字幕细校与原生导出验收。
 
 - 当前会话没有已提供的剪映官方操作 skill；对剪映／CapCut 官方域名的定向检索未找到可核实的官方 agent skill。找到的 isYangs/jianying-editor-skill 是第三方项目，不等同官方，也未安装／运行。
-- 本机 `/Applications` 与用户 Applications 中没有找到剪映／CapCut 应用入口，因此本次没有可操作的已安装桌面应用；未以第三方草稿写入脚本冒充真实导入。
+- 11/18 后续更正：早期仅按剪映／CapCut 文件名查找而漏检。本机已有 `/Applications/VideoFusion-macOS.app`，bundle ID `com.lemon.lvpro`、版本 `10.7.0`；主执行者已打开剪映并将完整 MP3 加入时间线。应用发现应核 bundle ID 与实际界面；完整字幕导入、保存重开及导出验收按后续实测记录继续，不沿用早期“未安装”的判断。
 - [CapCut 官方字幕导入说明](https://www.capcut.com/help/how-to-import-subtitles)列明桌面端支持 SRT／TXT，网页端支持 SRT；这是国际版文档，不能自动证明中国版剪映具体版本的入口和行为。
 
 素材已在 [本地索引](../projects/jensen-song-2026-11-17/LOCAL-ASSETS.md)：优先用持久 Movies 目录内完整 MP3 与正常拼写的 `lyrics-en-v2.txt`。Suno 输入版有发音改写，不直接当最终字幕。无提示 ASR 仅定位；不要把歌词平均摊到四分钟并称已同步。

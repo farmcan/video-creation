@@ -1,0 +1,37 @@
+{
+  "status": "provisional_target_lyrics_not_verified_transcription",
+  "cue_count": 44,
+  "source_files": {
+    "lyrics-en-v2.txt": "ce9a79c8d85d25b7cf470bd56ac5577b19deb31549a2e535c1cf0488d3757316",
+    "lyrics-zh-v1.txt": "7a0b39c1024b9745fdbb842ea646db2f77351fbb8782e9a93a3d87ae9c738136",
+    "take-a-local-asr-unprompted.json": "335b1fa4ac2d7d3eb68d8695a27259fc343ad07ca22fa82bf2ef5d5caa09eac2"
+  },
+  "method": "monotonic fuzzy word alignment to existing local unprompted ASR token offsets; only missing lines locally interpolated",
+  "limitations": [
+    "All timings require listening review; source singing-ASR token times can be compressed or offset.",
+    "Caption text is the intended lyric and Chinese adaptation, not proof of exact sung words.",
+    "No ASR, generation, payment or new media acquisition was performed."
+  ],
+  "srt_sha256": "079d2ac732ddbd2d3baa1abe95d36fb28fe6f43f0cf28d1a13c9b1bc0ca0e0a7",
+  "timing_status": "draft_requires_listening_review",
+  "low_confidence_cues": [
+    2,
+    6,
+    10,
+    12,
+    15,
+    17,
+    19,
+    21,
+    28,
+    33,
+    41
+  ],
+  "interpolated_cues": [
+    6,
+    21
+  ],
+  "jianying_timeline_import_verified": true,
+  "save_reopen_verified": true,
+  "video_export_verified": false
+}
