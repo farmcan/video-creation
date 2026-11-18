@@ -2,3 +2,14 @@ dist/
 __pycache__/
 .DS_Store
 *.pyc
+
+# 原媒体、录音和本地诊断不进入公开仓库。
+*.mp3
+*.m4a
+*.wav
+*.mp4
+*.mov
+*.flac
+*.aac
+*.private.json
+local/

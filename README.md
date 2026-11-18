@@ -1,16 +1,35 @@
 # 视频创作 / Video Creation
 
-维护准备发布的视频 ideas 与不同栏目。入口是简洁的栏目/想法卡片；AI 音乐只是其中一个栏目，研究、操作方案和真实实验放在独立详情页。不做后台或复杂创作平台。
+维护视频 ideas、原创研究、制作方法与可验证进展。页面入口为 [视频创作](https://farmcan.pages.dev/creation/)，使用既有 farmcan 站点；普通创作资料免登录，原媒体与账号资料不发布。
 
-公开页面：<https://farmcan.pages.dev/creation/>。由网站杂货铺首页进入；使用现有 farmcan Pages 项目，不额外占用 Cloudflare 项目。页面免登录、免密码。
+## 后续 Agent 从这里开始
 
-## 栏目与当前状态
+1. [通用创作方法](docs/creative-song-workflow.md)：按既有旋律写新词，从标杆研究、立意和梗，到乐句约束、自然英语、生产与验收。附来源、采用程度和可复制模板；适用于换人物或主题。
+2. [录音方案](docs/audio-recording.md)：本机已走通的系统声回环、短测、全曲录制、恢复设置及检查方法。
+3. [黄仁勋题材案例](projects/jensen-song-2026-11-17/README.md)：当前词稿、研究、实际制作与历史失败入口；[本地素材索引](projects/jensen-song-2026-11-17/LOCAL-ASSETS.md)说明录音和参考在哪里。
 
-- [栏目与 ideas](https://farmcan.pages.dev/creation/)：AI 音乐、职场小剧场、AI 工具日常；候选栏目和待策划想法明确标记。
-- [AI 音乐详情](https://farmcan.pages.dev/creation/ai-music/)：用户已从 8 秒源创建两条 V6-MINI Cover，时长 2:00 与 1:41；第一条显示的歌词/Styles 元数据未对齐英语 country rock 目标，实际音频尚未下载、听辨或转写。下一步先修正继承的中文歌词、Mandopop 风格和短参考约束，再做短乐句验证。Kie 限流保留为历史，本地开源路线仍停止。
-- `projects/catalog.json` 维护栏目与 idea；`projects/ai-music.json` 维护音乐实验状态。技术细节不再占满总入口。
+完整索引见 [docs/README.md](docs/README.md)。先读通用方法，再读目标项目；别把某次平台参数、热点事实或旧完成记录当成长期规则。
 
-## 维护与发布
+## 当前进展 · 2026-11-18
+
+黄仁勋题材的 [英文 v2](projects/jensen-song-2026-11-17/lyrics-en-v2.txt)与[中文梗说明](projects/jensen-song-2026-11-17/SONG-v2.md)已保留。Suno 生成 A／B 两首候选；A 已完成约 4:12 的本地播放录制，三份音频大小与哈希核对通过，连续性检查没有发现曲内持续半秒以上的静音。原曲逐句旋律、实际唱词细节与最终听感仍待验，B 尚无同等完整录制验收。
+
+旧会话「查看音乐生成参考」在音频工具结果引入 `input_audio` 后连续返回 HTTP 400；在新会话通过文档与文件接续，未宣称旧会话已经修复。剪映导入的准备与边界见 [导入说明](docs/jianying-import.md)。
+
+## 目录与维护
+
+| 目录 | 保存内容 |
+| --- | --- |
+| `docs/` | 跨题材工作流、录音与交接说明 |
+| `research/` | 原创方法研究、带日期的来源／许可快照 |
+| `projects/` | 栏目状态与单个作品的立意、词稿、输入、运行和验收 |
+| `scripts/` | Python 静态构建与显式导出 |
+| `site/` | 页面模板、样式和原创图标 |
+| `dist/` | 忽略提交的生成页面 |
+
+只在 main 维护。v1 是失败请求的真实输入，v2 是当前认可词稿，两者保留便于追溯；不删掉研究来源、许可或失败原因。音轨、完整第三方词稿、截图、账号信息和完整诊断日志放仓库外，原媒体扩展名已忽略提交。
+
+## 构建与发布
 
 需要 Python 3，无第三方构建依赖。
 
@@ -19,15 +38,6 @@ python3 scripts/build.py
 python3 scripts/export.py --target ../farmcan-websites
 ```
 
-只在 main 维护。先提交并推送本仓库，再导出；本仓库的源版本和首页、AI 音乐详情与静态资源哈希写入 build-manifest.json。导出后在既有 farmcan-websites 仓库构建、检查、commit/push，复用 Actions 发布与 release.json / 首页哈希验收，并额外核验 creation 页的字节。
+先检查链接、隐私和构建，提交并推送本仓库；再显式导出选定静态文件到 farmcan-websites 的 `site/creation/` 并推 main。复用既有 Actions，核对 release.json、首页和 creation 文件哈希；不新建 Cloudflare 项目。文档和素材目录不随静态包整体导出。
 
-- `projects/`：结构化状态、路线、验收标准、选题与参考链接。
-- `research/`：原创研究与操作笔记。
-- `site/`：静态界面模板与原创图标。
-- `dist/`：不提交的生成页面，只显式导出选定文件。
-
-## 公开边界
-
-普通研究、视频 ideas、计划、操作和真实进展默认公开。第三方完整歌词、原媒体、截图、个人财务、账号凭证、身份信息不进入公开仓库或网页。技术权限已开与生成成功分别记录，环境通过不冒充模型推理完成，播放量是注明日期的样本快照，不保证流量。
-
-研究继承自同一维护者先前的原创 AI 音乐制作笔记，保留原平台与工具官方链接，不继承第三方词曲、录音或截图。源码、界面和原创文档使用 MIT；外部作品与工具权利仍归各自权利人。
+源码、界面与原创文档使用 MIT；引用工具、词典及外部作品保留各自许可和权利。研究、页面可用、音频连续性、词曲合格与公开发布分别验收。

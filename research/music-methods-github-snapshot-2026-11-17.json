@@ -1,0 +1,177 @@
+{
+  "observed_on": "2026-11-17",
+  "timezone": "Asia/Shanghai",
+  "purpose": "Existing-melody English lyric writing and Suno workflow research",
+  "method": "GitHub connected search and public REST metadata; targeted README, code and research-document reads. Stars are snapshots, not capability validation.",
+  "repositories": [
+    {
+      "repository": "microsoft/muzic",
+      "url": "https://github.com/microsoft/muzic",
+      "stars": 4960,
+      "license_metadata": "MIT",
+      "default_branch": "main",
+      "pushed_at": "2026-08-05T21:14:33Z",
+      "default_branch_commit": "2b8739671ba06f819f31f568b8a79da581aaf6f9",
+      "archived": true
+    },
+    {
+      "repository": "pjlab-songcomposer/songcomposer",
+      "url": "https://github.com/pjlab-songcomposer/songcomposer",
+      "stars": 249,
+      "license_metadata": "Apache-2.0",
+      "default_branch": "main",
+      "pushed_at": "2025-05-30T22:42:15Z",
+      "default_branch_commit": "86c1deec706aaa9195dde8bf4fbc107c6a6b21c2",
+      "archived": false
+    },
+    {
+      "repository": "bitwize-music-studio/claude-ai-music-skills",
+      "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills",
+      "stars": 672,
+      "license_metadata": "CC0-1.0",
+      "default_branch": "main",
+      "pushed_at": "2026-11-15T00:44:29Z",
+      "default_branch_commit": "01463d350e9ff1534bdd30ce266183b6059ff075",
+      "archived": false
+    },
+    {
+      "repository": "melodic-software/claude-code-plugins",
+      "url": "https://github.com/melodic-software/claude-code-plugins",
+      "stars": 32,
+      "license_metadata": "MIT",
+      "default_branch": "main",
+      "pushed_at": "2026-11-17T14:27:27Z",
+      "default_branch_commit": "3ed61a3467fee60d2b81a3a41357ea5009fadd53",
+      "archived": false
+    },
+    {
+      "repository": "NuNaught/suno-songwriting-skill",
+      "url": "https://github.com/NuNaught/suno-songwriting-skill",
+      "stars": 33,
+      "license_metadata": "Apache-2.0",
+      "default_branch": "main",
+      "pushed_at": "2026-05-12T06:08:33Z",
+      "default_branch_commit": "60bee7890895b05ae8693e1d32c7f9759b27389d",
+      "archived": false
+    },
+    {
+      "repository": "ace-step/ACE-Step-1.5",
+      "url": "https://github.com/ace-step/ACE-Step-1.5",
+      "stars": 14884,
+      "license_metadata": "MIT",
+      "default_branch": "main",
+      "pushed_at": "2026-11-08T16:58:40Z",
+      "default_branch_commit": "ca1e85fe9430179831e6bc6be790c332190a3866",
+      "archived": false
+    },
+    {
+      "repository": "multimodal-art-projection/YuE",
+      "url": "https://github.com/multimodal-art-projection/YuE",
+      "stars": 13558,
+      "license_metadata": "Apache-2.0",
+      "default_branch": "main",
+      "pushed_at": "2026-11-01T05:46:34Z",
+      "default_branch_commit": null,
+      "archived": false
+    },
+    {
+      "repository": "openvpi/DiffSinger",
+      "url": "https://github.com/openvpi/DiffSinger",
+      "stars": 3246,
+      "license_metadata": "Apache-2.0",
+      "default_branch": "main",
+      "pushed_at": "2026-11-03T10:16:39Z",
+      "default_branch_commit": null,
+      "archived": false
+    },
+    {
+      "repository": "spotify/basic-pitch",
+      "url": "https://github.com/spotify/basic-pitch",
+      "stars": 6087,
+      "license_metadata": "Apache-2.0",
+      "default_branch": "main",
+      "pushed_at": "2025-11-13T14:40:46Z",
+      "default_branch_commit": "fa5997af0a8210982619003269994a1be25eddf3",
+      "archived": false
+    },
+    {
+      "repository": "MontrealCorpusTools/Montreal-Forced-Aligner",
+      "url": "https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner",
+      "stars": 1918,
+      "license_metadata": "MIT",
+      "default_branch": "main",
+      "pushed_at": "2026-11-16T21:51:34Z",
+      "default_branch_commit": null,
+      "archived": false
+    },
+    {
+      "repository": "bootphon/phonemizer",
+      "url": "https://github.com/bootphon/phonemizer",
+      "stars": 1581,
+      "license_metadata": "GPL-3.0",
+      "default_branch": "master",
+      "pushed_at": "2026-11-02T23:28:08Z",
+      "default_branch_commit": null,
+      "archived": false
+    },
+    {
+      "repository": "cmusphinx/cmudict",
+      "url": "https://github.com/cmusphinx/cmudict",
+      "stars": 833,
+      "license_metadata": "NOASSERTION",
+      "default_branch": "master",
+      "pushed_at": "2025-10-24T17:40:26Z",
+      "default_branch_commit": null,
+      "archived": false
+    },
+    {
+      "repository": "amazon-science/unsupervised-melody-to-lyrics-generation",
+      "url": "https://github.com/amazon-science/unsupervised-melody-to-lyrics-generation",
+      "stars": 11,
+      "license_metadata": "NOASSERTION",
+      "default_branch": "main",
+      "pushed_at": "2023-07-06T17:55:10Z",
+      "default_branch_commit": null,
+      "archived": false
+    },
+    {
+      "repository": "huawei-noah/Pretrained-Language-Model",
+      "url": "https://github.com/huawei-noah/Pretrained-Language-Model",
+      "stars": 3168,
+      "license_metadata": null,
+      "default_branch": "master",
+      "pushed_at": "2024-01-22T01:11:22Z",
+      "default_branch_commit": null,
+      "archived": false
+    },
+    {
+      "repository": "mttkllr/suno-field-guide",
+      "url": "https://github.com/mttkllr/suno-field-guide",
+      "stars": 27,
+      "license_metadata": null,
+      "default_branch": "main",
+      "pushed_at": "2026-06-16T13:44:23Z",
+      "default_branch_commit": "6813f193d72cb47088e687e0c1ea9b61c1097f3c",
+      "archived": false
+    }
+  ],
+  "failures": [
+    {
+      "repository": "tencent-ailab/SongGeneration",
+      "status": "404 via connected GitHub API; current availability unknown; do not report historical stars as current"
+    },
+    {
+      "repository": "beetbox/pronouncingpy",
+      "status": "404 for attempted URL; not selected"
+    },
+    {
+      "path": "microsoft/muzic/relyme/README.md",
+      "status": "404; corrected to relyme/Readme.md and read successfully"
+    },
+    {
+      "operation": "whole-repository recursive tree batch",
+      "status": "stalled and terminated; used targeted file reads instead"
+    }
+  ],
+  "validation": "No models installed, weights downloaded, inference or Suno generation run during this research."
+}

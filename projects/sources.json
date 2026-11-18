@@ -34,6 +34,11 @@
   ],
   "tools": [
     {
+      "title": "本项目可复用创作工作流",
+      "url": "https://github.com/farmcan/video-creation/blob/main/docs/creative-song-workflow.md",
+      "note": "乐句拆分、语义改写、自然重音、铺梗／回扣和分项验收；原研究保留来源、版本与未实测边界。"
+    },
+    {
       "title": "Suno Cover 官方说明",
       "url": "https://suno.com/products/covers",
       "note": "目标是保留旋律与已有词；不承诺固定新词、逐音一致。"
