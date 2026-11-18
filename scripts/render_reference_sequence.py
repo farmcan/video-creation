@@ -18,6 +18,7 @@ def main():
     parser.add_argument('--shots', required=True, type=Path)
     parser.add_argument('--assets', required=True, type=Path)
     parser.add_argument('--output', required=True, type=Path)
+    parser.add_argument('--community-badge', type=Path)
     args = parser.parse_args()
     ffmpeg = shutil.which('ffmpeg')
     if not ffmpeg:
@@ -44,13 +45,23 @@ def main():
         frames = round(shot['end_seconds'] * 30) - round(shot['start_seconds'] * 30)
         output = clips_dir / f'{index:03d}.mp4'
         # Preserve the complete source picture; blurred copies fill only its margins.
-        filters = ('[0:v]split=2[b][f];'
+        crop = shot.get('crop')
+        source_filter = ''
+        if crop:
+            x, y, width, height = crop
+            source_filter = f'crop=iw*{width}:ih*{height}:iw*{x}:ih*{y},'
+        fit_height = shot.get('fit_height', 720)
+        labeled = shot.get('community_reference') and args.community_badge
+        badge_inputs = ['-i', str(args.community_badge)] if labeled else []
+        filters = ('[0:v]' + source_filter + 'split=2[b][f];'
                    '[b]scale=1280:720:force_original_aspect_ratio=increase,'
                    'crop=1280:720,boxblur=24:2,eq=brightness=-0.25[bg];'
-                   '[f]scale=1280:720:force_original_aspect_ratio=decrease[fg];'
-                   '[bg][fg]overlay=(W-w)/2:(H-h)/2,setsar=1,format=yuv420p[v]')
+                   f'[f]scale=1280:{fit_height}:force_original_aspect_ratio=decrease[fg];'
+                   f'[bg][fg]overlay=(W-w)/2:({fit_height}-h)/2,setsar=1[base];')
+        filters += '[base][1:v]overlay=0:0,format=yuv420p[v]' if labeled else '[base]format=yuv420p[v]'
         subprocess.run([ffmpeg, '-hide_banner', '-loglevel', 'error', '-n',
                         '-loop', '1', '-i', str(root / shot['asset_file']),
+                        *badge_inputs,
                         '-filter_complex', filters, '-map', '[v]', '-an',
                         '-r', '30', '-frames:v', str(frames), '-c:v', 'libx264',
                         '-preset', 'ultrafast', '-crf', '22', '-threads', '2',

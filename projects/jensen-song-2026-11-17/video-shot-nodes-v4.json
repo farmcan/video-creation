@@ -1,0 +1,582 @@
+{
+  "status": "opening_and_full_edit_for_independent_review",
+  "audio_trim_seconds": 24.9,
+  "song_lyric_entrance_seconds": 8,
+  "duration_seconds": 227.6,
+  "new_scene_generation_count": 0,
+  "source_image_count": 17,
+  "shot_count": 60,
+  "shots": [
+    {
+      "shot_id": "S01",
+      "start_seconds": 0.0,
+      "end_seconds": 1.8,
+      "asset_file": "01-chinese-models-community.jpg",
+      "community_reference": true,
+      "fit_height": 548,
+      "crop": [
+        0,
+        0,
+        1,
+        0.515
+      ]
+    },
+    {
+      "shot_id": "S02",
+      "start_seconds": 1.8,
+      "end_seconds": 3.8,
+      "asset_file": "01-chinese-models-community.jpg",
+      "community_reference": true,
+      "fit_height": 548,
+      "crop": [
+        0,
+        0.52,
+        1,
+        0.48
+      ]
+    },
+    {
+      "shot_id": "S03",
+      "start_seconds": 3.8,
+      "end_seconds": 5.6,
+      "asset_file": "01-chinese-models-community.jpg",
+      "community_reference": true,
+      "fit_height": 548,
+      "crop": [
+        0,
+        0.52,
+        1,
+        0.48
+      ]
+    },
+    {
+      "shot_id": "S04",
+      "start_seconds": 5.6,
+      "end_seconds": 8.0,
+      "asset_file": "05-dennys-return.jpg",
+      "community_reference": false,
+      "fit_height": 720
+    },
+    {
+      "shot_id": "S05",
+      "start_seconds": 8.0,
+      "end_seconds": 14.3,
+      "asset_file": "02-distracted-boyfriend-community.jpg",
+      "community_reference": true,
+      "fit_height": 720
+    },
+    {
+      "shot_id": "S06",
+      "start_seconds": 14.3,
+      "end_seconds": 16.28,
+      "asset_file": "05-troublemaker-audience.png",
+      "community_reference": true,
+      "fit_height": 610,
+      "crop": [
+        0,
+        0,
+        1,
+        0.8
+      ]
+    },
+    {
+      "shot_id": "S07",
+      "start_seconds": 16.28,
+      "end_seconds": 19.9,
+      "asset_file": "03-why-deceive-community.jpg",
+      "community_reference": true,
+      "fit_height": 720
+    },
+    {
+      "shot_id": "S08",
+      "start_seconds": 19.9,
+      "end_seconds": 23.5,
+      "asset_file": "05-troublemaker-audience.png",
+      "community_reference": true,
+      "fit_height": 610,
+      "crop": [
+        0,
+        0,
+        1,
+        0.8
+      ]
+    },
+    {
+      "shot_id": "S09",
+      "start_seconds": 23.5,
+      "end_seconds": 27.27,
+      "asset_file": "02-distracted-boyfriend-community.jpg",
+      "community_reference": true,
+      "fit_height": 720
+    },
+    {
+      "shot_id": "S10",
+      "start_seconds": 27.27,
+      "end_seconds": 31.84,
+      "asset_file": "05-troublemaker-audience.png",
+      "community_reference": true,
+      "fit_height": 610,
+      "crop": [
+        0,
+        0,
+        1,
+        0.8
+      ]
+    },
+    {
+      "shot_id": "S11",
+      "start_seconds": 31.84,
+      "end_seconds": 36.86,
+      "asset_file": "04-troublemaker-community.png",
+      "community_reference": true,
+      "fit_height": 610,
+      "crop": [
+        0,
+        0,
+        1,
+        0.8
+      ]
+    },
+    {
+      "shot_id": "S12",
+      "start_seconds": 36.86,
+      "end_seconds": 39.1,
+      "asset_file": "04-spark-signature-closeup.jpg",
+      "community_reference": false,
+      "fit_height": 720
+    },
+    {
+      "shot_id": "S13",
+      "start_seconds": 39.1,
+      "end_seconds": 43.1,
+      "asset_file": "06-ces-2025-reveal.jpg",
+      "community_reference": false,
+      "fit_height": 720
+    },
+    {
+      "shot_id": "S14",
+      "start_seconds": 43.1,
+      "end_seconds": 47.1,
+      "asset_file": "01-chinese-models-community.jpg",
+      "community_reference": true,
+      "fit_height": 520
+    },
+    {
+      "shot_id": "S15",
+      "start_seconds": 47.1,
+      "end_seconds": 51.1,
+      "asset_file": "03-why-deceive-community.jpg",
+      "community_reference": true,
+      "fit_height": 720
+    },
+    {
+      "shot_id": "S16",
+      "start_seconds": 51.1,
+      "end_seconds": 54.4,
+      "asset_file": "06-ces-2025-reveal.jpg",
+      "community_reference": false,
+      "fit_height": 720
+    },
+    {
+      "shot_id": "S17",
+      "start_seconds": 54.4,
+      "end_seconds": 58.66,
+      "asset_file": "05-dennys-return.jpg",
+      "community_reference": false,
+      "fit_height": 720
+    },
+    {
+      "shot_id": "S18",
+      "start_seconds": 58.66,
+      "end_seconds": 62.48,
+      "asset_file": "02-meta-jacket-laugh.jpg",
+      "community_reference": false,
+      "fit_height": 720
+    },
+    {
+      "shot_id": "S19",
+      "start_seconds": 62.48,
+      "end_seconds": 64.96,
+      "asset_file": "04-troublemaker-community.png",
+      "community_reference": true,
+      "fit_height": 610,
+      "crop": [
+        0,
+        0,
+        1,
+        0.8
+      ]
+    },
+    {
+      "shot_id": "S20",
+      "start_seconds": 64.96,
+      "end_seconds": 65.96,
+      "asset_file": "05-troublemaker-audience.png",
+      "community_reference": true,
+      "fit_height": 610,
+      "crop": [
+        0,
+        0,
+        1,
+        0.8
+      ]
+    },
+    {
+      "shot_id": "S21",
+      "start_seconds": 65.96,
+      "end_seconds": 70.12,
+      "asset_file": "01-chinese-models-community.jpg",
+      "community_reference": true,
+      "fit_height": 520
+    },
+    {
+      "shot_id": "S22",
+      "start_seconds": 70.12,
+      "end_seconds": 73.76,
+      "asset_file": "12-openai-h200-delivery.jpg",
+      "community_reference": false,
+      "fit_height": 720
+    },
+    {
+      "shot_id": "S23",
+      "start_seconds": 73.76,
+      "end_seconds": 77.92,
+      "asset_file": "03-spacex-spark-delivery.jpg",
+      "community_reference": false,
+      "fit_height": 720
+    },
+    {
+      "shot_id": "S24",
+      "start_seconds": 77.92,
+      "end_seconds": 82.16,
+      "asset_file": "11-computex-robots.jpg",
+      "community_reference": false,
+      "fit_height": 720
+    },
+    {
+      "shot_id": "S25",
+      "start_seconds": 82.16,
+      "end_seconds": 86.46,
+      "asset_file": "01-oven-teaser.jpg",
+      "community_reference": false,
+      "fit_height": 720
+    },
+    {
+      "shot_id": "S26",
+      "start_seconds": 86.46,
+      "end_seconds": 90.46,
+      "asset_file": "04-spark-signature-closeup.jpg",
+      "community_reference": false,
+      "fit_height": 720
+    },
+    {
+      "shot_id": "S27",
+      "start_seconds": 90.46,
+      "end_seconds": 94.46,
+      "asset_file": "04-troublemaker-community.png",
+      "community_reference": true,
+      "fit_height": 610,
+      "crop": [
+        0,
+        0,
+        1,
+        0.8
+      ]
+    },
+    {
+      "shot_id": "S28",
+      "start_seconds": 94.46,
+      "end_seconds": 98.46,
+      "asset_file": "05-troublemaker-audience.png",
+      "community_reference": true,
+      "fit_height": 610,
+      "crop": [
+        0,
+        0,
+        1,
+        0.8
+      ]
+    },
+    {
+      "shot_id": "S29",
+      "start_seconds": 98.46,
+      "end_seconds": 102.1,
+      "asset_file": "05-dennys-return.jpg",
+      "community_reference": false,
+      "fit_height": 720
+    },
+    {
+      "shot_id": "S30",
+      "start_seconds": 102.1,
+      "end_seconds": 108.1,
+      "asset_file": "05-troublemaker-audience.png",
+      "community_reference": true,
+      "fit_height": 610,
+      "crop": [
+        0,
+        0,
+        1,
+        0.8
+      ]
+    },
+    {
+      "shot_id": "S31",
+      "start_seconds": 108.1,
+      "end_seconds": 111.1,
+      "asset_file": "02-meta-jacket-laugh.jpg",
+      "community_reference": false,
+      "fit_height": 720
+    },
+    {
+      "shot_id": "S32",
+      "start_seconds": 111.1,
+      "end_seconds": 117.1,
+      "asset_file": "01-chinese-models-community.jpg",
+      "community_reference": true,
+      "fit_height": 520
+    },
+    {
+      "shot_id": "S33",
+      "start_seconds": 117.1,
+      "end_seconds": 124.1,
+      "asset_file": "11-computex-robots.jpg",
+      "community_reference": false,
+      "fit_height": 720
+    },
+    {
+      "shot_id": "S34",
+      "start_seconds": 124.1,
+      "end_seconds": 126.1,
+      "asset_file": "05-troublemaker-audience.png",
+      "community_reference": true,
+      "fit_height": 610,
+      "crop": [
+        0,
+        0,
+        1,
+        0.8
+      ]
+    },
+    {
+      "shot_id": "S35",
+      "start_seconds": 126.1,
+      "end_seconds": 132.1,
+      "asset_file": "08-ces-2025-cosmos-stage.jpg",
+      "community_reference": false,
+      "fit_height": 720
+    },
+    {
+      "shot_id": "S36",
+      "start_seconds": 132.1,
+      "end_seconds": 136.1,
+      "asset_file": "09-computex-earth.jpg",
+      "community_reference": false,
+      "fit_height": 720
+    },
+    {
+      "shot_id": "S37",
+      "start_seconds": 136.1,
+      "end_seconds": 140.1,
+      "asset_file": "07-ces-2025-price-board.jpg",
+      "community_reference": false,
+      "fit_height": 720
+    },
+    {
+      "shot_id": "S38",
+      "start_seconds": 140.1,
+      "end_seconds": 144.1,
+      "asset_file": "12-openai-h200-delivery.jpg",
+      "community_reference": false,
+      "fit_height": 720
+    },
+    {
+      "shot_id": "S39",
+      "start_seconds": 144.1,
+      "end_seconds": 148.4,
+      "asset_file": "02-meta-jacket-laugh.jpg",
+      "community_reference": false,
+      "fit_height": 720
+    },
+    {
+      "shot_id": "S40",
+      "start_seconds": 148.4,
+      "end_seconds": 152.58,
+      "asset_file": "05-dennys-return.jpg",
+      "community_reference": false,
+      "fit_height": 720
+    },
+    {
+      "shot_id": "S41",
+      "start_seconds": 152.58,
+      "end_seconds": 156.46,
+      "asset_file": "05-dennys-return.jpg",
+      "community_reference": false,
+      "fit_height": 720
+    },
+    {
+      "shot_id": "S42",
+      "start_seconds": 156.46,
+      "end_seconds": 158.86,
+      "asset_file": "04-troublemaker-community.png",
+      "community_reference": true,
+      "fit_height": 610,
+      "crop": [
+        0,
+        0,
+        1,
+        0.8
+      ]
+    },
+    {
+      "shot_id": "S43",
+      "start_seconds": 158.86,
+      "end_seconds": 159.86,
+      "asset_file": "05-troublemaker-audience.png",
+      "community_reference": true,
+      "fit_height": 610,
+      "crop": [
+        0,
+        0,
+        1,
+        0.8
+      ]
+    },
+    {
+      "shot_id": "S44",
+      "start_seconds": 159.86,
+      "end_seconds": 164.04,
+      "asset_file": "01-chinese-models-community.jpg",
+      "community_reference": true,
+      "fit_height": 520
+    },
+    {
+      "shot_id": "S45",
+      "start_seconds": 164.04,
+      "end_seconds": 167.92,
+      "asset_file": "03-spacex-spark-delivery.jpg",
+      "community_reference": false,
+      "fit_height": 720
+    },
+    {
+      "shot_id": "S46",
+      "start_seconds": 167.92,
+      "end_seconds": 171.86,
+      "asset_file": "12-openai-h200-delivery.jpg",
+      "community_reference": false,
+      "fit_height": 720
+    },
+    {
+      "shot_id": "S47",
+      "start_seconds": 171.86,
+      "end_seconds": 175.74,
+      "asset_file": "11-computex-robots.jpg",
+      "community_reference": false,
+      "fit_height": 720
+    },
+    {
+      "shot_id": "S48",
+      "start_seconds": 175.74,
+      "end_seconds": 180.74,
+      "asset_file": "01-oven-teaser.jpg",
+      "community_reference": false,
+      "fit_height": 720
+    },
+    {
+      "shot_id": "S49",
+      "start_seconds": 180.74,
+      "end_seconds": 183.87,
+      "asset_file": "05-dennys-return.jpg",
+      "community_reference": false,
+      "fit_height": 720
+    },
+    {
+      "shot_id": "S50",
+      "start_seconds": 183.87,
+      "end_seconds": 187.74,
+      "asset_file": "02-meta-jacket-laugh.jpg",
+      "community_reference": false,
+      "fit_height": 720
+    },
+    {
+      "shot_id": "S51",
+      "start_seconds": 187.74,
+      "end_seconds": 191.14,
+      "asset_file": "02-distracted-boyfriend-community.jpg",
+      "community_reference": true,
+      "fit_height": 720
+    },
+    {
+      "shot_id": "S52",
+      "start_seconds": 191.14,
+      "end_seconds": 195.22,
+      "asset_file": "01-chinese-models-community.jpg",
+      "community_reference": true,
+      "fit_height": 520
+    },
+    {
+      "shot_id": "S53",
+      "start_seconds": 195.22,
+      "end_seconds": 199.14,
+      "asset_file": "12-openai-h200-delivery.jpg",
+      "community_reference": false,
+      "fit_height": 720
+    },
+    {
+      "shot_id": "S54",
+      "start_seconds": 199.14,
+      "end_seconds": 203.14,
+      "asset_file": "03-spacex-spark-delivery.jpg",
+      "community_reference": false,
+      "fit_height": 720
+    },
+    {
+      "shot_id": "S55",
+      "start_seconds": 203.14,
+      "end_seconds": 207.06,
+      "asset_file": "11-computex-robots.jpg",
+      "community_reference": false,
+      "fit_height": 720
+    },
+    {
+      "shot_id": "S56",
+      "start_seconds": 207.06,
+      "end_seconds": 213.06,
+      "asset_file": "01-oven-teaser.jpg",
+      "community_reference": false,
+      "fit_height": 720
+    },
+    {
+      "shot_id": "S57",
+      "start_seconds": 213.06,
+      "end_seconds": 217.06,
+      "asset_file": "02-meta-jacket-laugh.jpg",
+      "community_reference": false,
+      "fit_height": 720
+    },
+    {
+      "shot_id": "S58",
+      "start_seconds": 217.06,
+      "end_seconds": 221.06,
+      "asset_file": "01-chinese-models-community.jpg",
+      "community_reference": true,
+      "fit_height": 520
+    },
+    {
+      "shot_id": "S59",
+      "start_seconds": 221.06,
+      "end_seconds": 225.06,
+      "asset_file": "06-ces-2025-reveal.jpg",
+      "community_reference": false,
+      "fit_height": 720
+    },
+    {
+      "shot_id": "S60",
+      "start_seconds": 225.06,
+      "end_seconds": 227.6,
+      "asset_file": "05-dennys-return.jpg",
+      "community_reference": false,
+      "fit_height": 720
+    }
+  ],
+  "revision": "v4-review-2: simplified reveal, reduced adjacent repetition, persistent community composite labels"
+}

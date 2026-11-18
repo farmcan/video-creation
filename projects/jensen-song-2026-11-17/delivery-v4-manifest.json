@@ -1,0 +1,146 @@
+{
+  "version": "v4-final-review3",
+  "duration_seconds": 227.6,
+  "shot_count": 60,
+  "source_image_count": 17,
+  "cue_count": 44,
+  "audio_trim_seconds": 24.9,
+  "new_scene_generation_count": 0,
+  "cover_generation_count": 1,
+  "final_visual_review": "directed checks passed; two agent frame reviews; not full aural review",
+  "heard_by_agent": false,
+  "user_sync_accepted": false,
+  "native_project": "Let-Him-Cook-community-v4",
+  "native_timeline": "时间线02",
+  "native_status": "44 wrapped cues, picture and independent audio placed; exported, saved and reopened",
+  "files": [
+    {
+      "bytes": 15377930,
+      "sha256": "c76cfefb7db6d82032ac5cd3bca495784e4b71aed1d76b50b415ff3f6219899f",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "start_time": "0.000000",
+            "duration": "227.600000"
+          },
+          {
+            "codec_type": "audio",
+            "start_time": "0.000000",
+            "duration": "227.600000"
+          }
+        ],
+        "format": {
+          "duration": "227.600000"
+        }
+      },
+      "file": "jensen-community-v4.mp4"
+    },
+    {
+      "bytes": 2390176,
+      "sha256": "ecf1b80c6fb02f5108662e34feb5aeb38a08abed2511cf24dbb7852581bf1516",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "start_time": "0.000000",
+            "duration": "35.066667"
+          },
+          {
+            "codec_type": "audio",
+            "start_time": "0.000000",
+            "duration": "35.015011"
+          }
+        ],
+        "format": {
+          "duration": "35.066667"
+        }
+      },
+      "file": "opening-35s.mp4"
+    },
+    {
+      "bytes": 2722661,
+      "sha256": "02754a936e9825f743220b5ac7f3ac78c9ce4f1f4de27024bb5c871b74ff17a4",
+      "file": "cover-chinese-models-v4-16x9.png"
+    },
+    {
+      "bytes": 6099254,
+      "sha256": "ffbcbfad501666a6325b188dd1b91548605682ffed09855312f81e4c6fab772b",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "start_time": "0.000000",
+            "duration": "227.600000"
+          }
+        ],
+        "format": {
+          "duration": "227.600000"
+        }
+      },
+      "file": "picture-track-final.mp4"
+    },
+    {
+      "bytes": 40148718,
+      "sha256": "e7c7a856e4ccade2082f0028a6330cb3da18ab3633d629b1b8d2c0082439f4ed",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "audio",
+            "duration": "227.600000"
+          }
+        ],
+        "format": {
+          "duration": "227.600000"
+        }
+      },
+      "file": "audio-intro-cut-v4.wav"
+    },
+    {
+      "bytes": 5591,
+      "sha256": "4ab8815dde8b2a7dbbac358a43ac8db41d94028e02f86f025869952f0dac0dcc",
+      "file": "lyrics-zh-en-edit.srt"
+    },
+    {
+      "bytes": 176062613,
+      "sha256": "66545233b79302bc890e8080b171684a9698151cb9c5ae75ad38b3fc97061aea",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 1920,
+            "height": 1080,
+            "start_time": "0.000000",
+            "duration": "227.600000"
+          },
+          {
+            "codec_type": "audio",
+            "start_time": "0.000000",
+            "duration": "227.648435"
+          }
+        ],
+        "format": {
+          "duration": "227.648435"
+        }
+      },
+      "file": "Let-Him-Cook-community-v4.mov"
+    }
+  ],
+  "native_caption_word_wrap_review": "actual final MOV frames at 9/66.5/78.5/172.6/204.4 seconds passed; no heard-audio claim"
+}

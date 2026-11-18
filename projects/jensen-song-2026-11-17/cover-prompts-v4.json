@@ -1,0 +1,47 @@
+{
+  "version": "v4",
+  "created_on": "2026-11-19",
+  "skill": "imagegen",
+  "tool": "built-in image_gen.imagegen",
+  "generation_count": 1,
+  "intent": "Real-photo-based editorial cover using existing community model wordplay; no invented scene or female portrait.",
+  "reference_roles": [
+    {
+      "name": "06-ces-2025-reveal.jpg",
+      "role": "identity and existing pose/expression reference for Jensen",
+      "source_manifest": "video-reference-sources-v2.json"
+    },
+    {
+      "name": "01-chinese-models-community.jpg",
+      "role": "semantic community reference only; no woman face copied",
+      "source_page": "https://techcentral.co.za/jensen-huang-memes-roasted-own-gpus/",
+      "original_post": "https://x.com/emartinprieto/status/2119780441683345549",
+      "identity_warning": "The woman labelled Alice in that meme was not verified as Alice Huang; not used in this cover."
+    }
+  ],
+  "prompt": "Use case: compositing.\nAsset type: ONE 16:9 Chinese music video cover thumbnail, landscape 1920x1080 style composition.\nEdit/composite the first reference photo into a clean editorial meme thumbnail. First image is the real Jensen Huang CES stage photograph: preserve his recognizable photographic face, glasses, silver hair, leather jacket and existing expression; use a large crop of his face/upper body on the left. Do not invent a different expression, event, new pose, other people or a fake interaction. The GPU can remain a small recognizable part of the crop if it fits, but face is the main subject.\nSecond reference is ONLY a semantic reference to an existing community meme: Chinese models plural (DeepSeek/Kimi) versus Chinese model singular (Alice Huang). Do not reproduce its four-panel artwork, logos or the woman's face. NO woman, no female silhouette, no romantic imagery. Use simple original typography as the misdirection instead.\nStyle: bold, slightly dry internet-meme editorial cover, mostly real photograph plus flat graphic text. NOT an advertising poster, not glossy AI illustration. Clean warm off-white/right background and near-black type, small muted yellow highlight allowed. No clutter, no decorative tech lines.\nComposition: roughly left 40% huge recognizable real photographic Jensen face, right 60% bold simplified Chinese headline with generous margins. In the lower right, a simple restrained typographic choice/ambiguity cue reading DeepSeek / Kimi then Alice Huang? without implying this is his actual statement. Minimal text hierarchy, large and readable at 320x180.\nExact main headline in TWO lines, verbatim:\n老黄，你说的\n“中国模型”…？\nOnly smaller supporting text, verbatim:\nDeepSeek / Kimi\nAlice Huang?\n社区梗 · 英文改词\nKeep the support unobtrusive and below the headline. Do not add any other words, subtitles, captions, quotes, disclaimers, watermark, invented logos or text. No tiny multi-line explanatory text. The question is editorial commentary on a community wordplay, not a quotation by Jensen. No new narrative scene. Output a single finished 16:9 cover image.",
+  "outputs": {
+    "final": "local/jensen-community-v4/cover/cover-chinese-models-v4-16x9.png",
+    "generated_master": "local/jensen-community-v4/cover/cover-chinese-models-v4.png",
+    "inspection_thumbnail": "local/jensen-community-v4/cover/cover-chinese-models-v4-thumb.png"
+  },
+  "verification": {
+    "full_image_viewed": true,
+    "thumbnail_viewed": true,
+    "thumbnail_width": 480,
+    "main_text": "老黄，你说的\n“中国模型”…？",
+    "supporting_text": [
+      "DeepSeek / Kimi",
+      "Alice Huang?",
+      "社区梗 · 英文改词"
+    ],
+    "text_assessment": "Readable at 480 px wide. Main headline and support match requested wording; bold graphic layout, recognizable Jensen, no female portrait.",
+    "limitations": [
+      "Not an unaltered news photograph; built-in tool recomposed source photo for editorial cover.",
+      "User content acceptance pending; creative agent inspected cover but participated in its creation, so not blind judging.",
+      "This child did not view the finished music video or assess whether cover matches every lyric."
+    ],
+    "delivery_transform": "Generated 1672x941 asset normalized with sips to exact 1920x1080; no reference photos modified."
+  },
+  "rights": "Reference photos/community media rights not cleared for public redistribution; generated cover remains local."
+}
