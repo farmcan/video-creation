@@ -4,7 +4,8 @@
   "song_lyric_entrance_seconds": 8,
   "duration_seconds": 227.6,
   "new_scene_generation_count": 0,
-  "source_image_count": 17,
+  "source_image_count": 16,
+  "prepared_source_image_count": 17,
   "shot_count": 60,
   "shots": [
     {
