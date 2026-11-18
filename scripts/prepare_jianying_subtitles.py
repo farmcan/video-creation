@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Make provisional target-lyric subtitles from existing ASR; never runs ASR.
+"""HISTORICAL v1: rejected in native playback for early/short captions.
+
+Retained for diagnosis only. For the revised phrase-based candidate see
+prepare_jianying_subtitles_v2.py. File-format validity did not establish sync.
+
+Make provisional target-lyric subtitles from existing ASR; never runs ASR.
 
 All times require listening review. Text is the intended lyric, not a verified
 transcription. Monotonic word alignment preserves repeated chorus order. Only
@@ -99,7 +104,11 @@ def main():
     parser.add_argument("--chinese", type=Path, default=CASE / "lyrics-zh-v1.txt")
     parser.add_argument("--asr", type=Path, default=PRIVATE / "take-a-local-asr-unprompted.json")
     parser.add_argument("--output", type=Path, default=PRIVATE / "jianying-import")
+    parser.add_argument("--reproduce-failed-v1", action="store_true",
+                        help="Explicitly reproduce rejected v1 timing for diagnosis only")
     args = parser.parse_args()
+    if not args.reproduce_failed_v1:
+        parser.error("v1 timing failed playback review; use prepare_jianying_subtitles_v2.py with a NEW --output directory. Historical reproduction requires --reproduce-failed-v1.")
     english, chinese = read_lines(args.english), read_lines(args.chinese, True)
     assert len(english) == len(chinese) == 44, (len(english), len(chinese))
     out_srt = args.output / "lyrics-bilingual-draft.srt"

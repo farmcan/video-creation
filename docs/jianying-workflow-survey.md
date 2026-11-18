@@ -61,3 +61,30 @@ Mac 后备工具的[兼容性合同](https://github.com/Capricornus-joe/jianying
 - `lyrics-bilingual-draft.cues.json`：源文件哈希、逐词锚点、覆盖率、局部插值与低置信标记。
 
 第 6 句 Prime-time 和第 21 句 Everyone's a PhD 缺少足够锚点，只在邻句之间局部插值；没有整首均摊时间。低置信 cue 为 2、6、10、12、15、17、19、21、28、33、41。全部 cue 都保留听辨细校状态；正文是目标词，不是已核实实际演唱转录。脚本默认拒绝覆盖已有输出，重做请指定新的输出目录。
+
+## v1 播放失败与 v2 候选更正
+
+用户实际观看指出字幕比音频快、持续太短，故上述 v1 的时间方案已被证伪；文件结构与时码检查通过不等于同步通过。第 12 句名字与回归句被裁成 82.62–83.93 秒，仅 1.31 秒；原因是以“匹配到的单词包围框”代替完整乐句，姓名识别错误又漏掉句首。重新处理实际音频后还发现，旧全曲 ASR 把第一遍副歌开头放在 75.26 秒，而新分段识别约为 79.30 秒；不能只给旧字幕延长尾部。
+
+本轮重新用已有 tiny.en-q5_1 对原音轨及第一主歌、第二主歌、第一副歌、后两遍副歌的实际音频做无歌词提示的本地识别。`whisper-cli -dtw tiny.en` 会在默认 flash attention 下自动禁用 DTW；必须加 `-nfa`，检查日志 `dtw=1` 和非负 `t_dtw`，才把它记作实际 DTW 运行。第一次副歌约 3 秒、全曲约 12 秒完成；全部运行均未调用付费服务或向会话注入音频。尝试官方 whisper.cpp 指定 Hugging Face 源的 small.en 下载，首次 TLS 失败、一次 Python TLS 重试约 166 秒超时，未取得模型，不声称使用了 small.en。
+
+新的 [v2 组装入口](../scripts/prepare_jianying_subtitles_v2.py) 按分段实际识别的完整乐句和下一句入口组合字幕，并留间奏／尾奏空白。本机同一 `jianying-import/` 目录已输出：
+
+- `lyrics-bilingual-v2.srt`：44 cue，32.90–237.96 秒；第一遍副歌约 79.30–111.36 秒。
+- `lyrics-bilingual-v2.diagnosis.json`：逐句 v1／v2 起止与持续时间、来源窗口、组装理由和实际 ASR／DTW 证据哈希。
+- `lyrics-bilingual-chorus-v2.srt`：仅第一遍副歌八句，保留完整音轨的绝对时间，供先验证关键段落。
+
+八句副歌的显示覆盖总时长从 27.11 秒增至 31.78 秒，名字句从 1.31 秒增至 3.78 秒；Prime-time 与 PhD 在新的局部识别中已被恢复。上述是基于真实文件重跑的修订证据，**仍只算 v2 候选，尚未获得用户原生播放接受或逐句听辨通过**。不要把更长时长、有效 DTW 或正确格式直接写成“已经对齐”。旧 v1 文件原样保留，作为失败样本，不再推荐导入新工程。
+
+## 仓库内可复用文件与防误用
+
+[captions/manifest.json](../projects/jensen-song-2026-11-17/captions/manifest.json) 保留两版状态：v1 的 SRT 字节原样保留，标为 `failed_timing`；v2 是当前候选，导入、重开、用户时序接受和导出各自记录，不相互替代。仓库现有 [完整 v2 SRT](../projects/jensen-song-2026-11-17/captions/lyrics-bilingual-v2.srt)、[副歌验证版](../projects/jensen-song-2026-11-17/captions/lyrics-bilingual-chorus-v2.srt)与[脱敏时序诊断](../projects/jensen-song-2026-11-17/captions/lyrics-bilingual-v2.diagnosis.json)。公开诊断只含目标歌词、时码、方法、哈希和失败边界，原 ASR、音轨、运行日志与截图不复制。
+
+旧 `prepare_jianying_subtitles.py` 默认拒绝执行；仅显式加 `--reproduce-failed-v1` 才能复现失败方案。v2 组装脚本必须给新的 `--output` 目录，而且 SRT／诊断任一已存在就拒绝覆盖。例如，使用一个尚不存在的目录名：
+
+```sh
+python3 scripts/prepare_jianying_subtitles_v2.py --output local/subtitle-v2-rebuild-01
+python3 scripts/check_jianying_subtitles.py
+```
+
+检查器验证 44 句目标内容、三遍副歌、四处呼应、时码递增、非重叠、最低显示长度、SRT／诊断／源词稿哈希一致和脱敏边界。它不检查真实唱词同步；用户原生播放接受仍是独立验收。

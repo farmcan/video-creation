@@ -1,0 +1,29 @@
+{
+  "tool": "built-in imagegen",
+  "date": "2026-11-19",
+  "status": "rejected_by_user_no_community_context",
+  "assets": [
+    {
+      "id": "morals-checkpoint",
+      "file": "ai-morals-checkpoint.png",
+      "reference_ids": [
+        "06-ces-2025-reveal"
+      ],
+      "prompt": "Use case: identity-preserve / satirical music-video insert. Generate ONE wide 16:9 frame for a Chinese internet comedy music video, using the supplied real photo ONLY as Jensen Huang identity/clothing reference. Clear, absurd AI parody, NOT a real news event. He is a recognizable silver-haired Jensen wearing glasses and a black leather jacket, at a mundane airport-style security conveyor. Main visual punchline: an enormous GPU is being held up for a ridiculous 'morality check' instead of a human. On the left a deadpan anonymous middle-aged inspector in ordinary blue security uniform scrutinizes the GPU through a huge magnifying glass, and solemnly uses a toy rubber stamp on a tiny pink heart sticker attached to the GPU. Jensen on right waits with both palms up and looks directly into camera with a baffled 'seriously?' expression. The GPU is plainly a large dual-fan graphics card in a grey plastic security tray; no weapons, no crime imagery, no police arrest. A short overhead sign reads exactly '道德安检'. The inspector's monitor reads exactly 'GPU: 待审'. Slightly over-the-top low-budget Hong Kong visual comedy staging, tactile believable props, documentary-like flash-lit photo texture, funny awkward pause, readable large faces and extremely clear physical gag. Avoid glossy advertising, epic sci-fi, generic vector collage, lots of floating interface graphics. Keep important faces and gag in upper 80 percent; lower 15 percent quiet for bilingual lyric overlay. Small legible 'AI恶搞' top right. Do not imply any real allegation or literal incident.",
+      "cleanup_prompt": "Edit this exact AI parody image. Preserve the entire composition, all people, faces, hands, GPU, tray, signs 道德安检 / GPU: 待审 and top-right AI恶搞 exactly. Change ONLY the bottom black band: remove ALL the invented white and yellow Chinese/English lyrics and musical-note icons. The bottom 15% must be a plain quiet dark band without any writing, ready for external subtitle compositing. Do not add any subtitle, song lyric, caption or translation. No other changes.",
+      "sha256": "e49ce6e67f502e70a20006c29567a1ad4ea904a94fb387e2a2efd99da4aade31"
+    },
+    {
+      "id": "compute-canteen",
+      "file": "ai-compute-canteen.png",
+      "reference_ids": [
+        "06-ces-2025-reveal",
+        "02-meta-jacket-laugh",
+        "03-spacex-spark-delivery",
+        "12-openai-h200-delivery"
+      ],
+      "prompt": "Use case: identity-preserve / absurd satirical music-video scene. Generate ONE wide 16:9 frame. Input 1 Jensen at CES = Jensen identity and black leather jacket reference; input 2 = Mark Zuckerberg identity; input 3 = Elon Musk identity; input 4 = Sam Altman identity on LEFT of reference, do not include Greg Brockman. Invent a clearly fictional AI parody of a slightly shabby Chinese workplace canteen, not a real event. Visual joke: these immensely powerful tech bosses are obedient hungry schoolboys queueing with empty stainless-steel divided lunch trays while Jensen is the unhurried canteen auntie serving their compute. Recognizable Jensen at left behind the canteen counter, black leather jacket under a floral kitchen apron and small white cook cap, deadpan satisfied smirk, holds a giant soup ladle, a very large wok piled with tiny GPU boards instead of food (plain visibly absurd metal circuit boards, not animals). Zuckerberg first in line at center eagerly extends empty tray with both hands; Musk behind him cranes neck impatiently to see if anything is left; Altman last holds a comically oversized empty rice bowl and looks worried at the dwindling GPU pile. Each adult recognizable, no extra fingers or duplicated limbs, no minors, no romance. Behind Jensen a simple canteen sign reads exactly '算力食堂'. Over the queue a small sign reads exactly '排队打卡'. Humor comes from expressions, meek posture, status reversal, mundane battered trays, and the contrast of expensive leather clothes with a drab fluorescent canteen. Wide camera, readable faces, handmade low-budget practical comedy aesthetic, realistic photographic texture with conspicuously impossible premise. NOT glossy corporate art or vector collage. Small 'AI恶搞' top right. Keep the bottom 15% dark and quiet and completely EMPTY: no lyrics, no translations, no musical notes, no subtitles, no captions. Do not invent any other text or speech bubbles.",
+      "sha256": "650cf2b97f9cbf16f61f60484dcec811327592a3683b3a9e68319b2f7cd1c955"
+    }
+  ]
+}

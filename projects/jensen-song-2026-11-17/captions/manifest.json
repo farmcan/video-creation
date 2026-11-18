@@ -1,37 +1,67 @@
 {
-  "status": "provisional_target_lyrics_not_verified_transcription",
-  "cue_count": 44,
-  "source_files": {
-    "lyrics-en-v2.txt": "ce9a79c8d85d25b7cf470bd56ac5577b19deb31549a2e535c1cf0488d3757316",
-    "lyrics-zh-v1.txt": "7a0b39c1024b9745fdbb842ea646db2f77351fbb8782e9a93a3d87ae9c738136",
-    "take-a-local-asr-unprompted.json": "335b1fa4ac2d7d3eb68d8695a27259fc343ad07ca22fa82bf2ef5d5caa09eac2"
+  "schema_version": 2,
+  "current_candidate": "v2",
+  "current_srt": "lyrics-bilingual-v2.srt",
+  "status": "v2_candidate_requires_native_playback_acceptance",
+  "versions": {
+    "v1": {
+      "status": "failed_timing",
+      "cue_count": 44,
+      "source_files": {
+        "lyrics-en-v2.txt": "ce9a79c8d85d25b7cf470bd56ac5577b19deb31549a2e535c1cf0488d3757316",
+        "lyrics-zh-v1.txt": "7a0b39c1024b9745fdbb842ea646db2f77351fbb8782e9a93a3d87ae9c738136",
+        "take-a-local-asr-unprompted.json": "335b1fa4ac2d7d3eb68d8695a27259fc343ad07ca22fa82bf2ef5d5caa09eac2"
+      },
+      "method": "monotonic fuzzy word alignment to existing local unprompted ASR token offsets; only missing lines locally interpolated",
+      "limitations": [
+        "All timings require listening review; source singing-ASR token times can be compressed or offset.",
+        "Caption text is the intended lyric and Chinese adaptation, not proof of exact sung words.",
+        "No ASR, generation, payment or new media acquisition was performed."
+      ],
+      "srt_sha256": "079d2ac732ddbd2d3baa1abe95d36fb28fe6f43f0cf28d1a13c9b1bc0ca0e0a7",
+      "timing_status": "failed_native_playback_user_feedback",
+      "low_confidence_cues": [
+        2,
+        6,
+        10,
+        12,
+        15,
+        17,
+        19,
+        21,
+        28,
+        33,
+        41
+      ],
+      "interpolated_cues": [
+        6,
+        21
+      ],
+      "jianying_timeline_import_verified": true,
+      "save_reopen_verified": true,
+      "video_export_verified": false,
+      "user_feedback": "Captions ran ahead of the audio and disappeared too quickly.",
+      "retained_for": "historical_failure_diagnosis_only",
+      "srt_file": "lyrics-bilingual-draft.srt"
+    },
+    "v2": {
+      "status": "candidate_requires_native_playback_acceptance",
+      "srt_file": "lyrics-bilingual-v2.srt",
+      "srt_sha256": "c10de1863ea85dab350c22de1e4c2a0b6f5f804c3f5903b942d97c7e9a05bc87",
+      "diagnosis_file": "lyrics-bilingual-v2.diagnosis.json",
+      "cue_count": 44,
+      "timing_extent_seconds": [
+        32.9,
+        237.96
+      ],
+      "first_chorus_visible_seconds": 31.78,
+      "cue12_duration_seconds": 3.78,
+      "native_import_verified": true,
+      "save_reopen_verified": false,
+      "timing_accepted_by_user": false,
+      "video_export_verified": true,
+      "export_scope": "Native local MOV export verified, H.264 and AAC from zero. This is technical export validation; humor v3 was rejected and synchronization is not user accepted."
+    }
   },
-  "method": "monotonic fuzzy word alignment to existing local unprompted ASR token offsets; only missing lines locally interpolated",
-  "limitations": [
-    "All timings require listening review; source singing-ASR token times can be compressed or offset.",
-    "Caption text is the intended lyric and Chinese adaptation, not proof of exact sung words.",
-    "No ASR, generation, payment or new media acquisition was performed."
-  ],
-  "srt_sha256": "079d2ac732ddbd2d3baa1abe95d36fb28fe6f43f0cf28d1a13c9b1bc0ca0e0a7",
-  "timing_status": "draft_requires_listening_review",
-  "low_confidence_cues": [
-    2,
-    6,
-    10,
-    12,
-    15,
-    17,
-    19,
-    21,
-    28,
-    33,
-    41
-  ],
-  "interpolated_cues": [
-    6,
-    21
-  ],
-  "jianying_timeline_import_verified": true,
-  "save_reopen_verified": true,
-  "video_export_verified": false
+  "publication_boundary": "Only original target lyric text, cue times, hashes and redacted findings; raw ASR, audio, logs and screenshots remain private."
 }
