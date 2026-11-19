@@ -5,6 +5,7 @@
 - [录音复用流程](audio-recording.md)：系统回环、完整录制、恢复设置与分析边界。
 - [剪映导入交接](jianying-import.md)：已备素材、官方能力与当前未实测项。
 - [剪映工具比较与工作流](jianying-workflow-survey.md)：官方入口、第三方 skills／库、Mac 限制与实测边界；当前工程接续见 [视频计划](../projects/jensen-song-2026-11-17/VIDEO-PLAN.md)。
+- [v5 成片与封面状态](../projects/jensen-song-2026-11-17/VIDEO-PLAN.md)及[转剪包说明](../projects/jensen-song-2026-11-17/EDIT-PACKAGE-v5.md)：片头也双语，英文在上；时间线和素材可本地迁移。
 - [v4 本地交付与验证边界](../projects/jensen-song-2026-11-17/DELIVERY-v4.md)：主预览、短开头、封面、文件哈希，以及不同 Native 排版与最新导出状态；媒体保持本地。
 - [社区语境 v4 执行计划](../projects/jensen-song-2026-11-17/EDIT-PLAN-v4.md)：裁前奏、字幕、镜头、封面与交付顺序；当前最终返修及原生工程状态以视频计划为准。
 - 两份实际媒体评审：[画面与创意](../projects/jensen-song-2026-11-17/review-v4-creative.md)、[技术与字幕](../projects/jensen-song-2026-11-17/review-v4-captions.md)。保留 review-v1 问题与 review-v2 定向复核，实看抽帧范围、未听音及参与制作的边界分别说明。
