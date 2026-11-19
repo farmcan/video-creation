@@ -53,11 +53,17 @@ def main():
         fit_height = shot.get('fit_height', 720)
         labeled = shot.get('community_reference') and args.community_badge
         badge_inputs = ['-i', str(args.community_badge)] if labeled else []
-        filters = ('[0:v]' + source_filter + 'split=2[b][f];'
-                   '[b]scale=1280:720:force_original_aspect_ratio=increase,'
-                   'crop=1280:720,boxblur=24:2,eq=brightness=-0.25[bg];'
-                   f'[f]scale=1280:{fit_height}:force_original_aspect_ratio=decrease[fg];'
-                   f'[bg][fg]overlay=(W-w)/2:({fit_height}-h)/2,setsar=1[base];')
+        if shot.get('fit_mode') == 'fill':
+            # Only opt in after checking that a center crop preserves the reaction.
+            filters = ('[0:v]' + source_filter +
+                       'scale=1280:720:force_original_aspect_ratio=increase,'
+                       'crop=1280:720,setsar=1[base];')
+        else:
+            filters = ('[0:v]' + source_filter + 'split=2[b][f];'
+                       '[b]scale=1280:720:force_original_aspect_ratio=increase,'
+                       'crop=1280:720,boxblur=24:2,eq=brightness=-0.25[bg];'
+                       f'[f]scale=1280:{fit_height}:force_original_aspect_ratio=decrease[fg];'
+                       f'[bg][fg]overlay=(W-w)/2:({fit_height}-h)/2,setsar=1[base];')
         filters += '[base][1:v]overlay=0:0,format=yuv420p[v]' if labeled else '[base]format=yuv420p[v]'
         subprocess.run([ffmpeg, '-hide_banner', '-loglevel', 'error', '-n',
                         '-loop', '1', '-i', str(root / shot['asset_file']),

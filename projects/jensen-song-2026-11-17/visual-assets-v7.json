@@ -1,0 +1,498 @@
+{
+  "revision": "v7",
+  "observed_on": "2026-11-19",
+  "media_scope": "local only, not public assets",
+  "shot_list": "local/jensen-community-v7/shots-v7.json",
+  "unchanged_sources_reuse": "v6 sources directory and source research",
+  "selected": [
+    {
+      "path": "local/jensen-community-v7/sources/01-chinese-models-community.jpg",
+      "dimensions": [
+        1078,
+        985
+      ],
+      "sha256": "8dcd5873fffae723f3604f9d691c2c9f8f784948e80ea6bc499b8899082b0dd3"
+    },
+    {
+      "path": "local/jensen-community-v7/sources/01-oven-board-hd.jpg",
+      "dimensions": [
+        2560,
+        1440
+      ],
+      "sha256": "8ffa7241c6519613062304be8a1c8346a569f74dcb602461bbf68be0dc754cc6"
+    },
+    {
+      "path": "local/jensen-community-v7/sources/01-oven-board-revealed.jpg",
+      "dimensions": [
+        800,
+        479
+      ],
+      "sha256": "0cfdb1cbe7be894561b2845b8876aae592320ac45581804f0293782d71da2548"
+    },
+    {
+      "path": "local/jensen-community-v7/sources/02-distracted-boyfriend-community.jpg",
+      "dimensions": [
+        1078,
+        719
+      ],
+      "sha256": "3c753ad40aa72589d428cd02fa2aa14b013ee2154903d357e7d52e6355b1d121"
+    },
+    {
+      "path": "local/jensen-community-v7/sources/02-meta-jacket-laugh.jpg",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "sha256": "ab89becb06292830468ed577a11bc8847b6c634a608a2e2540c041f25a9687fd"
+    },
+    {
+      "path": "local/jensen-community-v7/sources/03-spacex-spark-delivery.jpg",
+      "dimensions": [
+        1280,
+        680
+      ],
+      "sha256": "ac3d6b91307e72fe74d6b90b94f800bb8beff510d0901a08c36367bc837e7ee1"
+    },
+    {
+      "path": "local/jensen-community-v7/sources/03-why-deceive-community.jpg",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "sha256": "e12e4f1157bcde50b6f6b25e2cef007e9032e02b937be2f59d84dfd99c3a9b55"
+    },
+    {
+      "path": "local/jensen-community-v7/sources/04-spark-signature-closeup.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "sha256": "9be0ed76b2943ea08f8ca03ef984adc67d04ab4167d3bfc80027acbbe62d3336"
+    },
+    {
+      "path": "local/jensen-community-v7/sources/04-stage-detail-gpt.png",
+      "dimensions": [
+        1828,
+        860
+      ],
+      "sha256": "79b3d8ca93733ae1491e8ca2e0b6f7015efe7a3d593bfd5421151aed9d8f2d79"
+    },
+    {
+      "path": "local/jensen-community-v7/sources/05-audience-full-gpt.png",
+      "dimensions": [
+        1675,
+        939
+      ],
+      "sha256": "0fd1ecb5d701b5cac67675d3419a023b381c3cfb2264cf83365f23cf2523740d"
+    },
+    {
+      "path": "local/jensen-community-v7/sources/05-dennys-return.jpg",
+      "dimensions": [
+        1280,
+        853
+      ],
+      "sha256": "fc4d725ed4524c92a1fc7728f8d40533bd688eef7ab8e90a9488a82409dadc72"
+    },
+    {
+      "path": "local/jensen-community-v7/sources/06-ces-2025-reveal.jpg",
+      "dimensions": [
+        1280,
+        853
+      ],
+      "sha256": "1790571ffc3823586358e2089026dfc114fe6669dcb597412e8966b715a02717"
+    },
+    {
+      "path": "local/jensen-community-v7/sources/07-ces-2025-price-board.jpg",
+      "dimensions": [
+        960,
+        640
+      ],
+      "sha256": "f599d3620ae1bc8faf55a92fac4a83757630e5806bdc0ea10949e4ccb1cb2ddf"
+    },
+    {
+      "path": "local/jensen-community-v7/sources/08-ces-2025-cosmos-stage.jpg",
+      "dimensions": [
+        960,
+        640
+      ],
+      "sha256": "446f738a59e0c358c2282b6dd780387cd56e41efe50f34453885ae5d5e6ac940"
+    },
+    {
+      "path": "local/jensen-community-v7/sources/09-computex-earth.jpg",
+      "dimensions": [
+        1280,
+        854
+      ],
+      "sha256": "033e6c12e1315e7fefcba57f34288360f53052bf137aa640d6a3d4d97c3f68c2"
+    },
+    {
+      "path": "local/jensen-community-v7/sources/11-computex-robots-same-frame.jpg",
+      "dimensions": [
+        1200,
+        675
+      ],
+      "sha256": "b2a125c9666370da95a6695e00620093d7232bc8af7f29385af2fffc30714ca1"
+    },
+    {
+      "path": "local/jensen-community-v7/sources/12-openai-h200-delivery.jpg",
+      "dimensions": [
+        900,
+        506
+      ],
+      "sha256": "9a6a0c33690ab149b58918c5547b9b94e7f20db6ed7b30f95ea7bed12178d3c4"
+    }
+  ],
+  "changed": [
+    {
+      "id": "audience",
+      "previous": {
+        "path": "local/jensen-community-v6/sources/05-audience-full-gpt.png",
+        "dimensions": [
+          1675,
+          939
+        ],
+        "sha256": "0fd1ecb5d701b5cac67675d3419a023b381c3cfb2264cf83365f23cf2523740d"
+      },
+      "selected": [
+        {
+          "path": "local/jensen-community-v7/sources/05-audience-full-gpt.png",
+          "dimensions": [
+            1675,
+            939
+          ],
+          "sha256": "0fd1ecb5d701b5cac67675d3419a023b381c3cfb2264cf83365f23cf2523740d"
+        }
+      ],
+      "local_alternates": [
+        {
+          "path": "local/jensen-community-v5/let-him-cook-v5-edit-package/source-images/05-troublemaker-audience.png",
+          "dimensions": [
+            840,
+            471
+          ],
+          "sha256": "36b1396e11fb79354b8364c8b54857301a65ebb66df75c45697ea0bdd8b6594d"
+        },
+        {
+          "path": "local/jensen-community-v6/restored/05-audience-wide-gpt.png",
+          "dimensions": [
+            2172,
+            724
+          ],
+          "sha256": "daf9461456ddd0fc7180c808b534616a4c15cbf0b66deedcda8a8be260296a0a"
+        }
+      ],
+      "method": "2026-11-19 去水印完整重制图，v7只变画布；旧无水印超宽版本备用。",
+      "source_pages": [
+        "https://www.bilibili.com/video/BV1PDWT6RE3F/"
+      ],
+      "uses": [
+        {
+          "shot_id": "S06",
+          "start_seconds": 14.3,
+          "end_seconds": 16.28,
+          "asset_file": "05-audience-full-gpt.png"
+        },
+        {
+          "shot_id": "S08",
+          "start_seconds": 19.9,
+          "end_seconds": 23.5,
+          "asset_file": "05-audience-full-gpt.png"
+        },
+        {
+          "shot_id": "S10",
+          "start_seconds": 27.27,
+          "end_seconds": 31.84,
+          "asset_file": "05-audience-full-gpt.png"
+        },
+        {
+          "shot_id": "S20",
+          "start_seconds": 64.96,
+          "end_seconds": 65.96,
+          "asset_file": "05-audience-full-gpt.png"
+        },
+        {
+          "shot_id": "S28",
+          "start_seconds": 94.46,
+          "end_seconds": 98.46,
+          "asset_file": "05-audience-full-gpt.png"
+        },
+        {
+          "shot_id": "S30",
+          "start_seconds": 102.1,
+          "end_seconds": 108.1,
+          "asset_file": "05-audience-full-gpt.png"
+        },
+        {
+          "shot_id": "S34",
+          "start_seconds": 124.1,
+          "end_seconds": 126.1,
+          "asset_file": "05-audience-full-gpt.png"
+        },
+        {
+          "shot_id": "S43",
+          "start_seconds": 158.86,
+          "end_seconds": 159.86,
+          "asset_file": "05-audience-full-gpt.png"
+        }
+      ]
+    },
+    {
+      "id": "stage",
+      "previous": {
+        "path": "local/jensen-community-v6/sources/04-troublemaker-stage-clean.jpg",
+        "dimensions": [
+          960,
+          452
+        ],
+        "sha256": "07e63288ae85c96ef03c6499ac5451fe7e00bda9bc8e41baba2878699dcb8d4b"
+      },
+      "selected": [
+        {
+          "path": "local/jensen-community-v7/sources/04-stage-detail-gpt.png",
+          "dimensions": [
+            1828,
+            860
+          ],
+          "sha256": "79b3d8ca93733ae1491e8ca2e0b6f7015efe7a3d593bfd5421151aed9d8f2d79"
+        }
+      ],
+      "local_alternates": [
+        {
+          "path": "local/jensen-community-v5/let-him-cook-v5-edit-package/source-images/04-troublemaker-community.png",
+          "dimensions": [
+            839,
+            466
+          ],
+          "sha256": "9e3e18cb1d51f4fbca00d0b8be358a64e87b5b5dcabbe817df2be6580471a8ca"
+        },
+        {
+          "path": "local/jensen-community-v7/candidates/official/stage-herald-top.png",
+          "dimensions": [
+            676,
+            392
+          ],
+          "sha256": "2e49c20deed55c9d587643a631f46a67e48fe9113db761c9dc56900a73bb30ca"
+        }
+      ],
+      "method": "v6 干净相邻帧经 GPT 定向去糊，保留服装和景别。",
+      "source_pages": [
+        "https://www.koreajoongangdaily.com/korea/from-infidelity-to-injokes-jensen-huang-affair-sparks-ai-meme-wave/12966563",
+        "https://mbiz.heraldcorp.com/article/10932854"
+      ],
+      "uses": [
+        {
+          "shot_id": "S11",
+          "start_seconds": 31.84,
+          "end_seconds": 36.86,
+          "asset_file": "04-stage-detail-gpt.png"
+        },
+        {
+          "shot_id": "S19",
+          "start_seconds": 62.48,
+          "end_seconds": 64.96,
+          "asset_file": "04-stage-detail-gpt.png"
+        },
+        {
+          "shot_id": "S27",
+          "start_seconds": 90.46,
+          "end_seconds": 94.46,
+          "asset_file": "04-stage-detail-gpt.png"
+        },
+        {
+          "shot_id": "S42",
+          "start_seconds": 156.46,
+          "end_seconds": 158.86,
+          "asset_file": "04-stage-detail-gpt.png"
+        }
+      ]
+    },
+    {
+      "id": "kitchen",
+      "previous": {
+        "path": "local/jensen-community-v6/sources/01-oven-teaser.jpg",
+        "dimensions": [
+          640,
+          480
+        ],
+        "sha256": "3ad0a8b915c2b9aba0ff193c18ab6436ccb55496e70ed59c88ae1121e05c2124"
+      },
+      "selected": [
+        {
+          "path": "local/jensen-community-v7/sources/01-oven-board-revealed.jpg",
+          "dimensions": [
+            800,
+            479
+          ],
+          "sha256": "0cfdb1cbe7be894561b2845b8876aae592320ac45581804f0293782d71da2548"
+        },
+        {
+          "path": "local/jensen-community-v7/sources/01-oven-board-hd.jpg",
+          "dimensions": [
+            2560,
+            1440
+          ],
+          "sha256": "8ffa7241c6519613062304be8a1c8346a569f74dcb602461bbf68be0dc754cc6"
+        }
+      ],
+      "local_alternates": [
+        {
+          "path": "local/jensen-community-v7/candidates/official/oven-max.jpg",
+          "dimensions": [
+            1280,
+            720
+          ],
+          "sha256": "fa8c8cd91b0b6f567aaa326608c142ed0fb4ddb143463953e455ddec7c39bbf9"
+        },
+        {
+          "path": "local/jensen-community-v7/candidates/official/oven-hexus.jpg",
+          "dimensions": [
+            700,
+            386
+          ],
+          "sha256": "383aa2646e607dfdaa7d42ad922c805ff681063aff120bb6e105731f1e80a039"
+        },
+        {
+          "path": "local/jensen-community-v7/candidates/official/oven-fierce.jpg",
+          "dimensions": [
+            806,
+            603
+          ],
+          "sha256": "fedb824c8c610c0720e8c3723b4bee121bc3ddadbabc38871f3ab853a9e80025"
+        }
+      ],
+      "method": "用同一 NVIDIA 预告无问号、可看见板卡的真实帧。",
+      "source_pages": [
+        "https://www.youtube.com/watch?v=So7TNRhIYJ8",
+        "https://gamesbeat.com/nvidia-ceo-teases-worlds-largest-graphics-card-cooking-for-thursday-talk/",
+        "https://www.techspot.com/news/85210-nvidia-pulls-world-largest-graphics-card-out-oven.html"
+      ],
+      "uses": [
+        {
+          "shot_id": "S25",
+          "start_seconds": 82.16,
+          "end_seconds": 86.46,
+          "asset_file": "01-oven-board-revealed.jpg"
+        },
+        {
+          "shot_id": "S48",
+          "start_seconds": 175.74,
+          "end_seconds": 180.74,
+          "asset_file": "01-oven-board-hd.jpg"
+        },
+        {
+          "shot_id": "S56",
+          "start_seconds": 207.06,
+          "end_seconds": 213.06,
+          "asset_file": "01-oven-board-hd.jpg"
+        }
+      ]
+    },
+    {
+      "id": "robots",
+      "previous": {
+        "path": "local/jensen-community-v6/sources/11-computex-robots.jpg",
+        "dimensions": [
+          672,
+          449
+        ],
+        "sha256": "8d20dfeedc93ae2d46bda441f8b4982387e7138e0e07e354b4cf49fac737f242"
+      },
+      "selected": [
+        {
+          "path": "local/jensen-community-v7/sources/11-computex-robots-same-frame.jpg",
+          "dimensions": [
+            1200,
+            675
+          ],
+          "sha256": "b2a125c9666370da95a6695e00620093d7232bc8af7f29385af2fffc30714ca1"
+        }
+      ],
+      "local_alternates": [
+        {
+          "path": "local/jensen-community-v7/candidates/official/robots-computex-hd.jpg",
+          "dimensions": [
+            2048,
+            1365
+          ],
+          "sha256": "5a33ed35a80e6fd851605bfb4de002057e61a9aa4e8edcd994a2e0abf21a503d"
+        }
+      ],
+      "method": "同照高清版优先；备用是同场不同画面。",
+      "source_pages": [
+        "https://www.businesstoday.in/technology/news/story/this-is-not-science-fiction-nvidia-ceo-jensen-huang-highlights-use-of-robotics-and-ai-tech-ahead-of-computex-431875-2024-06-03",
+        "https://nvidianews.nvidia.com/file/computex-keynote-jensen-robots"
+      ],
+      "uses": [
+        {
+          "shot_id": "S24",
+          "start_seconds": 77.92,
+          "end_seconds": 82.16,
+          "asset_file": "11-computex-robots-same-frame.jpg"
+        },
+        {
+          "shot_id": "S33",
+          "start_seconds": 117.1,
+          "end_seconds": 124.1,
+          "asset_file": "11-computex-robots-same-frame.jpg"
+        },
+        {
+          "shot_id": "S47",
+          "start_seconds": 171.86,
+          "end_seconds": 175.74,
+          "asset_file": "11-computex-robots-same-frame.jpg"
+        },
+        {
+          "shot_id": "S55",
+          "start_seconds": 203.14,
+          "end_seconds": 207.06,
+          "asset_file": "11-computex-robots-same-frame.jpg"
+        }
+      ]
+    }
+  ],
+  "cover": {
+    "previous": {
+      "path": "local/jensen-community-v5/cover/chinese-models-alice-clean-v5.jpg",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "f4d8e6969d4a278c5e0174ef61a5f3425ff2f9cfffcb38ea8bd3b4da512698b3"
+    },
+    "selected": {
+      "path": "local/jensen-community-v7/cover/let-him-cook-approved.jpg",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "1323a32568cbad1784b74d5bf684e96ec2007943e4b710da2900b216c66c3e04"
+    },
+    "master": {
+      "path": "local/jensen-community-v7/cover/let-him-cook-candidate.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "4af04c52a0d2ca4824d7c2e6c3735b5d0d9dcfff20eeb664009a146ae968c5dd"
+    },
+    "references": [
+      {
+        "path": "local/jensen-community-v7/candidates/oven/gamesbeat.jpg",
+        "dimensions": [
+          800,
+          479
+        ],
+        "sha256": "0cfdb1cbe7be894561b2845b8876aae592320ac45581804f0293782d71da2548"
+      },
+      {
+        "path": "local/jensen-community-v7/candidates/official/oven-hexus.jpg",
+        "dimensions": [
+          700,
+          386
+        ],
+        "sha256": "383aa2646e607dfdaa7d42ad922c805ff681063aff120bb6e105731f1e80a039"
+      }
+    ],
+    "decision": "用户确认厨房版，未加入视频时间线。"
+  }
+}

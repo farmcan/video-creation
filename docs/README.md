@@ -2,6 +2,8 @@
 
 - [按既有旋律创作新词](creative-song-workflow.md)：跨题材的方法、来源、阅读顺序、乐句模板与验收边界。
 - [先看社区作品，再做视频](community-first-video-workflow.md)：先实看参考、拆铺垫与反转、做短开头，再独立看片返修；与根 [AGENTS 的七条视频开工规则](../AGENTS.md#视频内容开工规则)配套。
+- [视频图片清晰度返修](visual-source-refresh.md)：找同帧、锁定表情和道具、做满屏构图，保留原件与改版索引。
+- [社区二创投稿包装](video-release-packaging.md)：怎样选梗、配标题／封面、写简介与判断曝光和留存。
 - [录音复用流程](audio-recording.md)：系统回环、完整录制、恢复设置与分析边界。
 - [剪映导入交接](jianying-import.md)：已备素材、官方能力与当前未实测项。
 - [剪映工具比较与工作流](jianying-workflow-survey.md)：官方入口、第三方 skills／库、Mac 限制与实测边界；当前工程接续见 [视频计划](../projects/jensen-song-2026-11-17/VIDEO-PLAN.md)。
