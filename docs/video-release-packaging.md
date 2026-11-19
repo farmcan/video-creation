@@ -10,3 +10,5 @@
 可复用来源：[YouTube 官方标题与缩略图指南](https://support.google.com/youtube/answer/12340300)的准确、简短、关键词前置，以及[官方 A/B 方法](https://support.google.com/youtube/answer/16391400)的同一作品对比；后者不是其他平台的功能或算法。GitHub [yt-dlp](https://github.com/yt-dlp/yt-dlp#usage-and-options)的 `--skip-download --dump-single-json` 可在允许访问的链接采集元数据，失败时保留缺口；[youtube-agent-skill](https://github.com/utillayer/youtube-agent-skill)的题图互补、片头过问和留存诊断可当人工检查项。未安装或引入其代码，规则分数不是流量模型。
 
 涉及合成画面时，发布前核实来源与可用范围，按 [B 站](https://www.bilibili.com/opus/1106496554576904197)、[抖音](https://trust.douyin.com/article/15868)、[X](https://help.x.com/en/rules-and-policies/authenticity)当前要求声明。常规创作注释留简介／交接；平台要求的声明照做。未获得发布授权、不合适的素材许可或未核实的新事实，保持待发布。
+
+抖音若显示「不适宜公开」，记录投稿时的公开设置、声明和稿件 ID，再按作品查 App 的系统通知或「抖音安全中心 → 我的违规」。预检的笼统提示只用于排查。对二创，优先核实高度拟真的真人画面会不会被误会成真实表演，以及照片、音轨和改编的授权。明确虚构语境，使用平台声明，按已确认的问题修改后再预检。[抖音审核原因查询](https://www.douyin.com/help)

@@ -12,7 +12,7 @@
 
 ## 当前进展 · 2026-11-19
 
-**v7《Let Him Cook》** 已在 [B 站](https://www.bilibili.com/video/BV1Tjsh6FE4r/)公开。抖音内容管理显示「不适宜公开」，X 待登录。[投稿回执](projects/jensen-song-2026-11-17/PUBLISH-v7.md)记录各平台所用版本和核验状态。
+**v7《Let Him Cook》** 的双语版已在 [B 站](https://www.bilibili.com/video/BV1Tjsh6FE4r/)公开，英文版已在 [X](https://x.com/LEVI_Tempest/status/2123382314571047353)发布。抖音内容管理显示「不适宜公开」。[投稿回执](projects/jensen-song-2026-11-17/PUBLISH-v7.md)记录版本和审核线索。
 
 以下为制作过程存档。
 
