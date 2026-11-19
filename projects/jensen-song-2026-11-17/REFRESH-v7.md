@@ -19,3 +19,7 @@
 - 新增梗图：`local/jensen-community-v7/meme-options/community-3-up.jpg`，三张从左到右：[皮衣随显卡销量变亮](https://www.reddit.com/r/pcmasterrace/comments/1hvwcf4/the_more_gpus_you_buy_the_shinier_my_jacket_gets/) 可接 1:10；[问显卡定价就集体嘘](https://www.reddit.com/r/pcmasterrace/comments/1txvvsk/when_someone_asks_how_the_gpus_are_priced/) 可接 2:16；[Denny's 空卡座](https://www.reddit.com/r/SanJose/comments/1xvey2t/one_day_after_stepping_down_as_ceo_the_jensen/) 可接 2:24 回扣「留个座」。原图及使用位置均待用户审选，未改时间线。空座只表达回扣，不据此给现实事件下判断。
 - 本人声音：`local/jensen-community-v7/voice-candidates/VOICE-SOURCES.md`。首选 [YC Startup School 2026](https://www.ycombinator.com/library/Tq-jensen-huang-the-mindset-that-built-nvidia) 登台说的 “Oh my God.”，官方播客 41.58–43.65 秒（2.07 秒，含现场观众底声）；次选 [Arm Tech Unheard](https://newsroom.arm.com/podcasts/tech-unheard-episode-one-jensen-huang) 62.90–65.10 秒以及 101.90–106.70 秒的两段真实采访。主办方逐字稿及本机原录音转写交叉核对，未混入成片。厨房原片另存来源线索，没取得下载的音频，不补时码。公开播放不等于再发行许可。
 - [B 站、抖音和 X 投稿草稿](RELEASE-COPY-v7.md)；[换图方法](../../docs/visual-source-refresh.md)、[投稿方法](../../docs/video-release-packaging.md)。
+
+## 语言交付分版
+
+国内版保留英上中下的剪映成片；X 版从同一无字幕画面轨烧入英文，字幕节点沿用原有 48 条，仅去翻译。两版复用同一 AAC 音轨、画面切点和厨房封面。用户判断本轮新增梗图不够有趣，候选留档，本轮不加入；YC 原声单独给用户试听。

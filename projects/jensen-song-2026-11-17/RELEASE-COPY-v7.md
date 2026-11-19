@@ -1,12 +1,12 @@
 # 《给老黄留个座 / Let Him Cook》：投稿文案草稿
 
-仅供审核，未发布。下方抖音、X 文案按短切预期写，短切不要在画面之外补充未核实事实；原声候选未混入。
+仅供审核，未发布。主标题统一用 **Let Him Cook**。国内发英文在上、中文在下的版本；X 用只有英文字幕的版本，正文也用英语。两版都是完整 v7；备选短剪未制作。原声候选未混入。
 
 | 平台 | 建议文案 | 备选 |
 | --- | --- | --- |
-| B 站标题 | **黄仁勋上桌了｜《朋友的酒》英文改词** | 显卡归显卡，朋友归朋友｜《朋友的酒》黄仁勋版 |
-| 抖音 | **老黄说起 Chinese model，我还以为要聊显卡。** `#黄仁勋 #朋友的酒 #英文改词` | 老黄端上桌的，怎么又是显卡。 |
-| X | **We said “let him cook.” Jensen took it literally. 🧑‍🍳 An English parody of 《朋友的酒》. AI-assisted visuals; fictional meme edit.** | He put the GPUs in the oven. We put them in a drinking song. English parody; AI-assisted visuals. |
+| B 站标题 | **Let Him Cook｜《朋友的酒》英文改词** | 显卡归显卡，朋友归朋友｜《朋友的酒》黄仁勋版 |
+| 抖音 | **Let Him Cook｜我还以为老黄要聊显卡。** `#黄仁勋 #朋友的酒 #英文改词` | 老黄端上桌的，怎么又是显卡。 |
+| X | **Let Him Cook. Jensen took it literally. An English parody of the Chinese drinking song Peng You De Jiu. AI-assisted visuals; fictional meme edit.** | He put the GPUs in the oven. We put them in a drinking song. English parody; AI-assisted visuals. |
 
 B 站简介（可直接复制）：
 
@@ -14,7 +14,7 @@ B 站简介（可直接复制）：
 >
 > 《朋友的酒》英文改词，英唱中译。部分画面为 AI 辅助二创，仅作虚构玩梗。
 
-B 站标签候选：黄仁勋、朋友的酒、英文改词、英伟达、音乐二创。抖音先试一段 20–35 秒有完整反差和歌词的短切，另做手机画幅、实看人物及字幕。X 优先发原生短片，英文正文不用解释 Chinese model 的答案。不要用本人演唱、本人私生活实锤等措辞。
+B 站标签候选：黄仁勋、朋友的酒、英文改词、英伟达、音乐二创。抖音先试一段 20–35 秒有完整反差和歌词的短切，另做手机画幅、实看人物及字幕。X 选择英文字幕版的原生视频，英文正文不用解释 Chinese model 的答案。不要用本人演唱、本人私生活实锤等措辞。
 
 ## 观察案例（2026-11-19 查阅）
 
